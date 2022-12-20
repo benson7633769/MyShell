@@ -71,7 +71,7 @@ bool is_builtins(struct list*args){
   return false;
 }
 
-//某字串是不是數字?
+//某字串是不是數字?.
 int isnum(char* str){
   for(int i=0;i<strlen(str);i++){
     if(str[i]>=48 && str[i]<=57){
